@@ -16,6 +16,8 @@ To run this experiment, execute from an activated jetpack sdk virtualenv:
 
 Try minimal jetpack code to catch xulrunner application startup.
 
+## Retrospectiva ##
+
 First prototype was a simple:
 
 <pre>
@@ -45,3 +47,8 @@ exports.main = function(options, callbacks) {
 }
 </code>
 </pre>
+
+## Useful links ##
+
+ * [MDC Observer Notifications](https://developer.mozilla.org/en/Observer_Notifications)
+ * [Jetpack observer-service module](#module/jetpack-core/observer-service)
