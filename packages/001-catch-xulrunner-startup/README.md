@@ -32,6 +32,18 @@ exports.main = function(options, callbacks) {
 but for some strange reason (e.g. on the fly profile directory creation)
 this code run twice.
 
+<pre>
+(xulrunner-bin:5782): GLib-WARNING **: g_set_prgname() called multiple times
+info: Hello World!
+OK
+
+(xulrunner-bin:5782): GLib-WARNING **: g_set_prgname() called multiple times
+info: Hello World!
+OK
+Total time: 1.041158 seconds
+Program terminated successfully.
+</pre>
+
 Btw, using <code>observer-service</code> module, the code run only once, 
 as expected:
 
@@ -48,6 +60,15 @@ exports.main = function(options, callbacks) {
 </code>
 </pre>
 
+<pre>
+(xulrunner-bin:5816): GLib-WARNING **: g_set_prgname() called multiple times
+
+(xulrunner-bin:5816): GLib-WARNING **: g_set_prgname() called multiple times
+info: Hello World!
+OK
+Total time: 1.083434 seconds
+Program terminated successfully.
+</pre>
 ## Useful links ##
 
  * [MDC Observer Notifications](https://developer.mozilla.org/en/Observer_Notifications)
