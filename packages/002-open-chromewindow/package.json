@@ -1,0 +1,9 @@
+{
+    "name": "001-open-chromewindow",
+    "description": "How to open a chrome window?",
+    "author": "Luca Greco (http://ubik.cc/) <luca.greco@alcacoop.it>",
+    "version": "0.1",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "dependencies": ["jetpack-core", "misc"],
+    "main": "main"
+}
