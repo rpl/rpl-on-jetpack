@@ -1,6 +1,6 @@
 {
-    "name": "001-open-chromewindow",
-    "description": "How to open a chrome window?",
+    "name": "002-open-chromewindow",
+    "description": "How can I open a new chrome window?",
     "author": "Luca Greco (http://ubik.cc/) <luca.greco@alcacoop.it>",
     "version": "0.1",
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1",

@@ -1,6 +1,6 @@
 {
     "name": "001-catch-xulrunner-startup",
-    "description": "How to run on xulrunner startup?",
+    "description": "How can I catch xulrunner startup?",
     "author": "Luca Greco (http://ubik.cc/) <luca.greco@alcacoop.it>",
     "version": "0.1",
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
