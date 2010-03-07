@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://player/skin/main.css" type="text/css"?>
+
+<?xul-overlay href="chrome://xul-devel-panel/content/overlayToolkit.xul"?>
+
+<window title="XULRunnerTemplate"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        windowtype="MainAppWindow"
+        hidechrome="true"
+        id="activexul-window"
+        persist="width height"
+        minwidth="400">
+  <label id="label1">label1</label>
+  <label id="label2">label2</label>
+  <label id="label3">label3</label>
+  <label id="label4">label4</label>
+  <browser id="web-area" disablehistory="true" width="400" height="400" src="http://xulit.org" flex="1" />
+  <script>
+    document.getElementById("label2").value = "executed";
+  </script>
+  <script type="application/x-javascript" src="main.js"/> 
+</window>
