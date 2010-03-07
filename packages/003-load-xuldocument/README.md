@@ -1,4 +1,4 @@
-# 003 - How can I load a xul document? #
+# How can I load a xul document? #
 
 ## Run this experiment ##
 

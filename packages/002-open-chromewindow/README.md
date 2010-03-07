@@ -1,4 +1,4 @@
-# 002 - How can I open a new chrome window? #
+# How can I open a new chrome window? #
 
 ## Run this experiment ##
 
